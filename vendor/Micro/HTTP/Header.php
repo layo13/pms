@@ -12,7 +12,7 @@ class Header {
 		$this->charset = $charset;
 	}
 
-	public function toString() {
+	public function __toString() {
 		return "Content-Type: " . $this->contentType . ($this->charset != "" ? ";Charset=" . $this->charset : "");
 	}
 

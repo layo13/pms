@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calls>
+    <call name="ClientGetUnique">
+        <method>GET</method>
+        <uri>/{id}</uri>
+        <urlparameters>
+            <parameter name="id" type="int" mandatory="true" />
+        </urlparameters>
+    </call>
+    <!--call name="getUniqueCustomer" method="GET">
+        <parameter name="id" type="int" mandatory="true" />
+    </call>
+    <call name="getCustomerList" method="GET" /-->
+</calls>

@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteBase /pms/customer
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.*)$ app.php [QSA,L]
+
+</IfModule>
